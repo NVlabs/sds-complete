@@ -75,7 +75,7 @@ for scan_name in data_map.keys():
 
 
 ## Prepare the GT
-For each scan, download the GT data by applying the provided mask. Then apply the provided transformation to align it with the input point cloud:
+For each scan, download the GT data and mask it with the provided mask. Then apply the provided transformation to align it with the input point cloud:
 ```
 scans=["09639",   "05117",       "05452",       "06127",       "06188",       "07136",       "07306" ,     "01184"  ,     "06145",    "06830",   ]
 
