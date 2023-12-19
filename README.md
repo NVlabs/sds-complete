@@ -4,7 +4,7 @@
 
 This repository contains supplementary data for the <a href="http://redwood-data.org/3dscan/">Redwood Dataset </a>. The supplementary data was used for evaluating SDS-Complete on 10 redwood scans. The data contains:
 * Object masks for the GT
-* Object masks for the input point cloud data
+* Object masks for the input point cloud 
 * Transformations for aligning each GT data into the input point cloud's coordinates system. 
 * World plane normals for each input point cloud data
 
@@ -75,7 +75,7 @@ for scan_name in data_map.keys():
 
 
 ## Prepare the GT
-For each scan, download the GT data apply the mask and transformation to align it with the input point cloud:
+For each scan, download the GT data by applying the provided mask. Then apply the provided transformation to align it with the input point cloud:
 ```
 scans=["09639",   "05117",       "05452",       "06127",       "06188",       "07136",       "07306" ,     "01184"  ,     "06145",    "06830",   ]
 
