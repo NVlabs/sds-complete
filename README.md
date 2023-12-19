@@ -28,7 +28,7 @@ For each scan it is required to first download both, the depth (point cloud) dat
 
 
 
-## Prepare input data
+## Prepare the input data
 For each scan apply the provided mask on the depth data and extract the point cloud: 
 ```
 
