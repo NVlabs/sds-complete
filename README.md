@@ -3,7 +3,7 @@
 
 
 This repository contains the official code implementation for SDS-Complete (NeurIPS 2023). 
-
+The code is based on https://github.com/ashawkey/stable-dreamfusion. 
 
 
 
