@@ -19,7 +19,7 @@ pip install scipy
 pip install tqdm
 pip install imageio
 pip  install pandas
-pip install scikit-image
+pip install scikit-image==0.18.3
 pip install opencv-python
 pip install matplotlib
 pip install trimesh
@@ -30,7 +30,7 @@ pip install diffusers
 ```
 
 ## Folder Structure
-The code assumes that the folder redwood_dataset contains the input scans (and GT surfaces if available).  
+The code assumes that the folder data_processing/redwood_dataset contains the input scans (and GT surfaces for evaluation if available).  
 ```
 .
 ├── main.py
