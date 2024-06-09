@@ -25,7 +25,7 @@ Suplementary data is provided for following scans:
 For each scan it is required to first download the depth (point cloud) data (e.g. for scan "09639"):
 * Enter http://redwood-data.org/3dscan/models.html?i=09639
 * Download "RGB-D SEQUENCE"
-* Alternatively, got into  data_processing/frames_data_full/09639/README.md and download the provided link.
+* Alternatively, go into  data_processing/frames_data_full/09639/README.md and download the provided link.
 * Extract 09639.zip into data_processing/frames_data_full/09639/
 * You should have a folder data_processing/frames_data_full/09639/depth
 
