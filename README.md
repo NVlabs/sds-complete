@@ -8,7 +8,7 @@ The code is based on https://github.com/ashawkey/stable-dreamfusion.
 
 
 ## Installation Requirements
-The code is compatible with Python 3.7 and pytoch 1.13.1. We recommned using ancaonda and pip to install the required packages:
+The code is compatible with Python 3.7 and pytoch 1.13.1. We recommned using anaconda and pip to install the required packages:
 ```
 conda create -n "sdscomplete" python=3.7
 conda activate sdscomplete
