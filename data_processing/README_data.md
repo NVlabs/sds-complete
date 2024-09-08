@@ -120,6 +120,9 @@ for scan_name in scans:
 
 ```
 
+If you want to run on your own point cloud files you need to find the world plane. An example code for finding the world pland with RANSAC is provided in find_plane.py. 
+
+You also need to provide the object mask for the input point cloud.
 
 
 
